@@ -1,0 +1,88 @@
+body{
+    background-color: white;
+        color:rgb(7, 7, 7);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .menu {
+        float: right;
+        list-style-type: none;
+        margin-top:  25px;
+    }
+    .menu li{
+        display: inline;
+
+    }
+    .menu li a{
+        text-decoration: none;
+        color: rgb(139, 139, 139);
+        padding: 5px 20px;
+        transition: 0.82s;
+       }
+    .menu li a:hover{
+      background-color:  rgb(139, 139, 139);
+      color: rgb(252, 252, 252);
+ }
+ .menu li.active a{ 
+    color: rgb(12, 12, 12);
+ }
+ .containerPicture .btn1 {
+    position: absolute;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  
+  .containerPicture .btn:hover {
+    background-color: rgb(219, 61, 13);
+    
+  }
+ .containerx {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+    background-color: rgba(0, 128, 128, 0.13);
+
+}
+.content {
+    position: relative;
+    padding-top: 100px;
+}
+.photos1{
+    height: 550px;
+    float: left;
+    width: 100%;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .containerPicture {
+    position: relative;
+    text-align:left;
+    color: white;
+  }
+  .slike{
+    width: 32.4%;
+    float: left;
+    padding: 3px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

@@ -1,0 +1,24 @@
+{
+  "name": "boringapp",
+  "version": "1.0.0",
+  "description": "Backend za spletno stran boringapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bookshelf": "^1.2.0",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.4",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "googleapis": "^76.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "knex": "^0.21.19",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1"
+  }
+}
